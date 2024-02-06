@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #1B1B1B;
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 80%;
+}
+.line{
+    margin-top: 10px;
+    height: 2px;
+    background-color: #410074;
+    width: 100%;
+}
+.title{
+    font-family: Kanit, sans-serif;
+    color: white;
+    font-size: 45px;
+    margin-left: 200px;
+    
+}
+.About{
+    font-family: Inter, sans-serif;
+    color: white;
+    margin-top: 15px;
+}
+.matri{
+    font-family: Inter, sans-serif;
+    background-color: #410074;
+    border: hidden;
+    border-radius: 15px;
+    color: white;
+    height: 50px;
+    width: 100px;
+
+}
+.login{
+    font-family: Inter, sans-serif;
+    background-color: #410074;
+    border: hidden;
+    border-radius: 15px;
+    color: white;
+    height: 50px;
+    width: 60px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-self: center;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.login:hover{
+    background-color: #120020;
+    cursor: pointer;
+}
+.matri:hover{
+    background-color: #120020;
+    cursor: pointer;
+}
+.About:hover{
+    color: rgb(79, 79, 79);
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    background-color: #410074;
+
+}
+.bola{
+    width: 100px; 
+    height: 100px; 
+    background: #ffffff; 
+    border-radius: 9999px; border: 3px #FFC700 solid;
+}
+.bola:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: #FFC700 0px 0px 20px ;
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bolota{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    background-color: #410074;
+}
+.bolota:hover{
+   background-color: #2d004f;
+   cursor: pointer;
+}
+.seta{
+    padding: 13px;
+}
+.tooltiptext {
+    font-family: Kanit, sans-serif;
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.587);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 160px;
+  }
+.tooltip:hover .tooltiptext{
+    
+    visibility: visible;
+}
+.tooltip .tooltiptext::after{
+content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+.content{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width: 80%;
+    height: 1300px;
+    border-radius: 50px;
+}

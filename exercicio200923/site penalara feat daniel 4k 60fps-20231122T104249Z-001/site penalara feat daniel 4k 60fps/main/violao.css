@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background-color: #222222;
+    margin: 0;
+    text-align: center;
+    margin: 50px;
+}
+.title{
+    font-family: Kanit, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.item{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #4200747d;
+}
+.desc{
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    color: white;
+}
+img{
+    border-radius: 0px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title2{
+    font-family: Kanit, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.content2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: rap;
+    max-width: 100%;
+}
